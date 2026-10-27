@@ -12,3 +12,6 @@ Eine mobile-first, offline-fähige Planungs-App für Lehrkräfte. Sie benötigt 
 Unterrichts- und Planungsdaten werden lokal im `localStorage` des verwendeten Browsers gespeichert und nicht an einen Server übertragen. Über **Einstellungen → JSON exportieren** regelmäßig eine Sicherung speichern. Mit **JSON importieren** kann sie wiederhergestellt werden. Beim Löschen von Browserdaten oder Geräte-/Browserwechsel gehen lokale Daten verloren, sofern sie nicht exportiert wurden.
 
 Die App-Oberfläche ist deutschsprachig; der Wochenplan basiert auf einer Standardvorlage, einzelne konkrete Wochen können separat abweichend eingetragen werden.
+
+## A-/B-Wochenrhythmus
+Der Wochenplan verwendet zwei getrennte Vorlagen. Die bisherige Standardvorlage bleibt erhalten und wird als A-Wochenvorlage genutzt; die B-Wochenvorlage startet leer. Unter **Einstellungen** kann das Datum des Rhythmusankers und dessen Typ (A oder B) festgelegt werden. Der Typ wechselt danach kalenderwochenweise automatisch. Im Wochenplan und in der Tagesübersicht wird die aktuelle Zuordnung angezeigt; über **A/B wechseln** lässt sich eine einzelne Woche manuell zuordnen, mit **Automatisch** wieder auf den Anker-Rhythmus zurücksetzen. Bei der Bearbeitung einer Stunde kann festgelegt werden, ob Klasse und Raum in die A- oder B-Wochenvorlage übernommen werden.
